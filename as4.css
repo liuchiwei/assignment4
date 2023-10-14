@@ -1,0 +1,39 @@
+/* 调整导航栏样式以横向排列导航链接 */
+.navbar .navbar-collapse ul.navbar-nav {
+    display: flex;
+    justify-content: space-around; 
+    background-color: lemonchiffon;
+    border-bottom: none; /* 移除底部边框 */
+    margin-bottom: 0; /* 移除底部 margin */
+  }
+  
+
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: brown; 
+    padding-top: 10px; /* 调整链接文本的上边距 */
+    padding-bottom: 5px; /* 调整链接文本的下边距 */
+    line-height: 2; /* 适当调整链接文本的行高，可以根据需要进行微调 */
+  }
+
+  
+  .navbar-nav .nav-item {
+    padding: 0 20px;
+    list-style: none; 
+  }
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: lemonchiffon; /* 添加导航栏的背景颜色 */
+  }
+
+  footer {
+    color: black;
+    background-color: burlywood;
+    margin-top: 0; /* 移除上方留白 */
+    margin-bottom: 0; /* 移除下方留白 */
+    padding: 10px 0; /* 可以根据需要来调整内边距 */
+  }
